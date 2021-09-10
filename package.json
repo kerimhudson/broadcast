@@ -1,0 +1,31 @@
+{
+  "name": "@kerimhudson/broadcast",
+  "description": "A lightweight logger for node",
+  "type": "module",
+  "version": "0.0.1",
+  "source": "src/index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/shhh.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "microbundle --target=node"
+  },
+  "author": {
+    "name": "Kerim Hudson",
+    "email": "code@kerim.sh",
+    "url": "https://kerim.sh"
+  },
+  "bugs": {
+    "email": "code+shhh@kerim.sh",
+    "url": "https://kerim.sh"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kerimhudson/logger.git"
+  },
+  "dependencies": {
+    "kleur": "^4.1.4",
+    "microbundle": "^0.13.3"
+  }
+}
